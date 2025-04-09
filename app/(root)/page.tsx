@@ -1,5 +1,9 @@
 
+import DealCountdown from '@/components/deal-countdown';
 import { HeroSection } from '@/components/shared/home/hero-section';
+import { HoverBottomSection } from '@/components/shared/home/hover-bottom-section';
+import { Benefits } from '@/components/shared/home/tangible-benefit-box';
+import FrequentlyAskedQuestions from '@/components/shared/sales-page/faqs';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -26,18 +30,18 @@ export const metadata: Metadata = {
     <>
     <HeroSection />
     <div className='w-full mx-auto px-12 dark:bg-black antialiased dark:bg-grid-white/[0.03] overflow-hidden space-y-8 pt-4'>
-    {/* <Benefits />
-    <ProblemSection />
+    <Benefits />
+    {/* <ProblemSection />
     <ProblemAgitateSection />
     <SolutionSection />
     <SocialProofSection />
     <CompanySection />
     <FeaturesSection />
-    <PackageSection />
-    <DealCountdown /> */}
-    <div className='max-w-5xl text-6xl font-bold mx-auto text-center mt-40'>Frequently Asked Questions</div>
-    {/* <FrequentlyAskedQuestions />
-    <HoverBottomSection /> */}
+    <PackageSection /> */}
+    <DealCountdown />
+    <div className='max-w-5xl text-9xl font-bold mx-auto text-center mt-40'>FAQs</div>
+    <FrequentlyAskedQuestions />
+    <HoverBottomSection />
      </div>
     </> 
     );
