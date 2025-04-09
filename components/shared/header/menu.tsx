@@ -15,15 +15,15 @@ import { getMyCart } from "@/lib/actions/cart.actions";
 import Link from "next/link";
 
 const navItems = [
-    {name: "Home", href: "https://igift.ph"},
-    {name: "About", href: "https://igift.ph/about"},
-    {name: "Shop", href: "/shop"},
-    {name: "Services", href: "https://igift.ph/services"},
-    {name: "Earn", href: "https://igift.ph/earn"},
-    {name: "Events", href: "https://igift.ph/events"},
+    {name: "Home", href: "/"},
+    {name: "About", href: "/about"},
+    {name: "Shop", href: "https://platform.igift.ph/shop"},
+    {name: "Services", href: "/services"},
+    {name: "Earn", href: "/earn"},
+    {name: "Events", href: "/events"},
     {name: "Center", href: "https://center.igift.ph"},
-    {name: "Resources", href: "https://igift.ph/resources"},
-    {name: "Contact", href: "https://igift.ph/contact"}
+    {name: "Resources", href: "/resources"},
+    {name: "Contact", href: "/contact"}
 ];
 
 const Menu = async () => {

@@ -5,7 +5,7 @@ import Menu from "./menu";
 
 
 const Header = () => {
-    return  <header className="w-full border-b">
+    return  <header className="w-full border-b-none">
     <div className="wrapper flex items-center justify-between">
       {/* Logo Section */}
       <Link href="/" className="flex items-center">

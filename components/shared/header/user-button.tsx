@@ -17,7 +17,7 @@ const UserButton = async () => {
     if (!session) {
         return (
             <Button asChild className='ml-2 text-black bg-yellow-400 hover:bg-yellow-300 border-none rounded-3xl' variant='outline'>
-                <Link href='/sign-in'>
+                <Link href='https://platform.igift.ph/sign-in'>
                 <UserIcon size={64} /> Sign In
                 </Link>
             </Button>
