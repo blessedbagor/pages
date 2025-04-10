@@ -1,9 +1,14 @@
 
 import DealCountdown from '@/components/deal-countdown';
+import { CompanySection } from '@/components/shared/home/company-section';
+import FeaturesSection from '@/components/shared/home/features-section';
 import { HeroSection } from '@/components/shared/home/hero-section';
 import { HoverBottomSection } from '@/components/shared/home/hover-bottom-section';
+import PackageSection from '@/components/shared/home/package-section';
 import { ProblemAgitateSection } from '@/components/shared/home/problem-agitate-section';
 import { ProblemSection } from '@/components/shared/home/problem-section';
+import { SocialProofSection } from '@/components/shared/home/social-proof-section';
+import { SolutionSection } from '@/components/shared/home/solution-section';
 import { Benefits } from '@/components/shared/home/tangible-benefit-box';
 import FrequentlyAskedQuestions from '@/components/shared/sales-page/faqs';
 import { Metadata } from 'next';
@@ -35,11 +40,11 @@ export const metadata: Metadata = {
     <Benefits />
     <ProblemSection />
     <ProblemAgitateSection />
-    {/* <SolutionSection />
+    <SolutionSection />
     <SocialProofSection />
     <CompanySection />
     <FeaturesSection />
-    <PackageSection /> */}
+    <PackageSection />
     <DealCountdown />
     <div className='max-w-5xl text-9xl font-bold mx-auto text-center mt-40'>FAQs</div>
     <FrequentlyAskedQuestions />

@@ -185,6 +185,12 @@ export async function getOrderSummary() {
     };
 }
 
+//Get total number of users registered
+export async function getTotalUsers() {
+    const usersCount = await prisma.user.count();
+    return usersCount;
+}
+
 //Get all the Orders
 export async function getAllOrders({
     limit = PAGE_SIZE,
