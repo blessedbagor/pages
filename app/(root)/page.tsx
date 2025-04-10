@@ -2,6 +2,8 @@
 import DealCountdown from '@/components/deal-countdown';
 import { HeroSection } from '@/components/shared/home/hero-section';
 import { HoverBottomSection } from '@/components/shared/home/hover-bottom-section';
+import { ProblemAgitateSection } from '@/components/shared/home/problem-agitate-section';
+import { ProblemSection } from '@/components/shared/home/problem-section';
 import { Benefits } from '@/components/shared/home/tangible-benefit-box';
 import FrequentlyAskedQuestions from '@/components/shared/sales-page/faqs';
 import { Metadata } from 'next';
@@ -31,9 +33,9 @@ export const metadata: Metadata = {
     <HeroSection />
     <div className='w-full mx-auto px-12 dark:bg-black antialiased dark:bg-grid-white/[0.03] overflow-hidden space-y-8 pt-4'>
     <Benefits />
-    {/* <ProblemSection />
+    <ProblemSection />
     <ProblemAgitateSection />
-    <SolutionSection />
+    {/* <SolutionSection />
     <SocialProofSection />
     <CompanySection />
     <FeaturesSection />
