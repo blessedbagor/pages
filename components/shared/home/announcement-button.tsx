@@ -13,10 +13,10 @@ import Link from "next/link";
 
 export function AnnouncementButton() {
   const images = [
-    "/images/da-nang/1.png",
-    "/images/da-nang/2.png",
-    "/images/da-nang/3.png",
-    "/images/da-nang/5.png",
+    "/images/soft-launching/3.png",
+    "/images/soft-launching/1.png",
+    "/images/soft-launching/4.png",
+    "/images/soft-launching/2.png",
   ];
   return (
     <div className="pt-20  flex items-center justify-center">
@@ -28,7 +28,7 @@ export function AnnouncementButton() {
             </span>
             <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 ">
               <span>
-                First Asian Tour 2025
+              Soft Launching Promo 🎉
               </span>
               <svg
                 fill="none"
@@ -52,11 +52,11 @@ export function AnnouncementButton() {
         <ModalBody>
           <ModalContent>
             <h4 className="text-lg md:text-2xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-8">
-            First Asian Travel to{" "}
+            iGift Soft Launching   {" "}
               <span className="px-1 py-0.5 rounded-md bg-gray-100 dark:bg-neutral-800 dark:border-neutral-700 border border-gray-200">
-                Da Nang
+              Promo
               </span>{" "}
-              ✈️
+              🎉
             </h4>
             <div className="flex justify-center items-center">
               {images.map((image, idx) => (
@@ -89,16 +89,17 @@ export function AnnouncementButton() {
             </div>
             <div className="py-10 flex flex-wrap gap-x-4 gap-y-6 items-start justify-start max-w-sm mx-auto">
             <p className="text-lg mx-auto text-center">
-            We are excited to announce that our first Asian 
-            travel qualification has been extended until March 31, 2025, 
-            to allow more iGift Distributors to qualify and join.
+            We are excited to announce that our 
+            soft launch will be on April 30, 2025! 
+            Our promo starts 
+            now—don&apos;t miss this exciting milestone!
             </p>
             </div>
           </ModalContent>
           <ModalFooter className="gap-4">
-            <Link href='https://learn.igift.com.ph/community/space/say-hello/post/qualification-for-the-a' target="_blank" className='mx-auto'>
+            <Link href='https://learn.igift.com.ph/community/space/say-hello/post/igift-iloilo-head-office-soft' target="_blank" className='mx-auto'>
             <span className=" text-black bg-gold text-lg px-2 py-2 rounded-xl border border-black">
-              Be the First iGift Travel Qualifier
+              Read the Promo Mechanics
             </span>
             </Link>
           </ModalFooter>
