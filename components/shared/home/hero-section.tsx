@@ -43,7 +43,7 @@ export function HeroSection() {
             </span>
             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-yellow-500 to-transparent h-px" />
           </HoverBorderGradient>
-          <Link href="/sign-in">
+          <Link href="https://platform.igift.ph/sign-in">
             <button className="sm:w-full flex items-center border text-lg font-medium uppercase dark:bg-white dark:hover:border-gold dark:border-transparent text-black px-4 py-2 rounded-2xl">
               Login <ChevronRight className="ml-1" />
             </button>

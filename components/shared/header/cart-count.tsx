@@ -10,7 +10,7 @@ const CartCount = ({ cart }: { cart?: Cart }) => {
             {/* If no cart or no items in cart */}
             {!cart || cart.items.length === 0 ? (
                 <Button asChild variant="ghost" className="rounded-3xl hover:bg-yellow-400">
-                    <Link href="/cart">
+                    <Link href="https://platform.igift.ph/cart">
                     <ShoppingBag size={64}  />
                     </Link>
                 </Button>
