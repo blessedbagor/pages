@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     return ( 
     <>
     <HeroSection />
-    <div className='w-full mx-auto px-12 dark:bg-black antialiased dark:bg-grid-white/[0.03] overflow-hidden space-y-8 pt-4'>
+    <div className='w-full mx-auto px-12 dark:bg-black bg-white antialiased dark:bg-grid-white/[0.03] bg-grid-black/[0.03] overflow-hidden space-y-8 pt-4'>
     <Benefits />
     <ProblemSection />
     <ProblemAgitateSection />

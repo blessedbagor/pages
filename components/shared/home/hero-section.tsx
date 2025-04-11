@@ -13,7 +13,7 @@ export function HeroSection() {
 
   return (
     <>
-    <div className="relative md:h-screen h-[60rems] w-full rounded-md flex md:items-center md:justify-center dark:bg-black/[0.96] antialiased dark:bg-grid-white/[0.02] overflow-hidden">
+    <div className="relative md:h-screen h-[60rems] w-full rounded-md flex md:items-center md:justify-center dark:bg-black/[0.96] bg-white/[0.96] antialiased dark:bg-grid-white/[0.05] bg-grid-black/[0.05] overflow-hidden">
       <Spotlight />
 
       {/* Text Content */}
