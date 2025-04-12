@@ -9,16 +9,16 @@ import {
     DropdownMenuLabel,
     DropdownMenuTrigger
  } from '@/components/ui/dropdown-menu';
-import { Power, UserIcon} from "lucide-react";
+import { Power, ChevronRight} from "lucide-react";
 
 const UserButton = async () => {
     const session = await auth();
 
     if (!session) {
         return (
-            <Button asChild className='ml-2 text-black bg-yellow-400 hover:bg-yellow-300 border-none rounded-3xl' variant='outline'>
+            <Button asChild className='ml-2 text-black hover:text-black bg-yellow-400 hover:bg-gold text-lg px-4 py-2 border-none rounded-xl' variant='outline'>
                 <Link href='https://platform.igift.ph/sign-in'>
-                <UserIcon size={64} /> Sign In
+                 SIGN IN<ChevronRight/>
                 </Link>
             </Button>
         )

@@ -5,10 +5,10 @@ import Image from "next/image";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { Card, CardContent } from "@/components/ui/card";
 import { getReviewStats } from "@/lib/actions/review.actions";
-import Rating from "../product/rating";
+import Rating from "@/components/shared/product/rating";
 import { ColourfulText } from "@/components/ui/colorful-text";
 
-export function SolutionSection() {
+export function ProductSection() {
   const [reviewStats, setReviewStats] = useState<{ averageRating: string; totalReviews: number }>({ 
     averageRating: "0.00", 
     totalReviews: 0 
@@ -29,8 +29,8 @@ export function SolutionSection() {
 
   return (
     <div className="max-w-5xl mx-auto p-4">
-      <h2 className='text-4xl md:text-6xl font-bold mx-auto mt-40 text-center'>  
-        <ColourfulText text="Introducing..." />
+      <h2 className='text-3xl md:text-6xl font-bold mx-auto text-center'>  
+        <ColourfulText text="INTRODUCING" />
 
       </h2>
       <GridItem
@@ -52,11 +52,11 @@ interface GridItemProps {
 
 const GridItem = ({ imageSrc, title, description, reviewStats }: GridItemProps) => {
   return (
-    <div className="relative max-w-full lg:max-w-5xl mx-auto h-full rounded-2.5xl border-transparent p-2 md:rounded-3xl md:p-8 mt-8 flex flex-col items-center text-center">
+    <div className="relative max-w-full lg:max-w-3xl mx-auto h-full rounded-2.5xl border-transparent p-2 md:rounded-3xl md:p-8 mt-8 flex flex-col items-center text-center">
         <GlowingEffect spread={40} glow={true} disabled={false} proximity={64} inactiveZone={0.01} />
       <div className="relative flex flex-col justify-center items-center gap-6 overflow-hidden rounded-xl border-0.75 p-8 dark:shadow-[0px_0px_27px_0px_#2D2D2D] md:p-8">
         <div className="relative flex flex-col justify-center items-center gap-3">
-          <div className="w-500 h-500 rounded-lg border bg-black dark:bg-transparent border-gray-600 overflow-hidden">
+          <div className="w-500 h-500 rounded-lg border border-gray-600 overflow-hidden">
             <Image src={imageSrc} alt="Product Image" width={500} height={500} />
           </div>
           <div className="space-y-3">
@@ -69,10 +69,10 @@ const GridItem = ({ imageSrc, title, description, reviewStats }: GridItemProps) 
             <p className="hidden md:block"> of <span className='font-bold'>{Number(reviewStats.totalReviews)}</span> Trusted Customer Reviews</p>
             <p className="block md:hidden font-mono font-extrabold"> ({Number(reviewStats.totalReviews)})</p>
             </div>
-            <h4 className="text-lg md:text-xl text-black dark:text-neutral-400 font-sans">
+            <h4 className="max-w-3xl text-lg md:text-xl text-black dark:text-neutral-400 font-sans">
               {description}
             </h4>
-            <Card className="border-transparent p-4 dark:bg-transparent">
+            <Card className="max-w-3xl border-transparent p-4 dark:bg-transparent mx-auto">
             <CardContent className="flex flex-col justify-center text-center md:text-left w-full">
           <table className="min-w-full table-auto border-collapse rounded-md">
             <thead>
@@ -135,6 +135,18 @@ const GridItem = ({ imageSrc, title, description, reviewStats }: GridItemProps) 
             />
           </div>
         </div>
+        <h2 className='text-2xl md:text-3xl font-bold text-center mt-12 uppercase'>Suggested Use:</h2>
+        <p className="text-xl md:text-xl mt-6 text-center">
+            Take one capsule daily, preferably with a meal or as prescribed by Physician.
+        </p>
+        <p className="max-w-2xl text-lg md:text-sm mt-6 text-center">
+
+            Some customers feel the benefits within the first week, 
+            while others may need more time—it all depends on your body&apos;s unique needs, 
+            vitamin levels, and health history. 
+            Think of Immuno Boost Advance+ as a gradual investment in your long-term health, 
+            where your body absorbs and utilizes nutrients over time for lasting results.
+        </p>
         </CardContent>
       </Card>
           </div>

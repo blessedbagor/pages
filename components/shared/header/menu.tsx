@@ -17,7 +17,7 @@ import Link from "next/link";
 const navItems = [
     {name: "Home", href: "/"},
     {name: "About", href: "/about"},
-    {name: "Shop", href: "https://platform.igift.ph/shop"},
+    {name: "Packages", href: "/packages"},
     {name: "Services", href: "/services"},
     {name: "Earn", href: "/earn"},
     {name: "Events", href: "/events"},
@@ -35,7 +35,7 @@ const Menu = async () => {
             <Link
                 key={item.name}
                 href={item.href}
-                className="rounded-3xl hover:bg-yellow-400 hover:text-black px-4 py-2 text-sm uppercase font-medium"
+                className="rounded-xl hover:bg-yellow-400 hover:text-black px-4 py-2 text-sm uppercase font-medium"
             >
                 {item.name}
             </Link>

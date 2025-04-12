@@ -31,6 +31,11 @@ export function HeroSection() {
           for yourself and your family.
         </p>
         <div className="flex gap-x-4 justify-center mt-8">
+        <Link href="https://platform.igift.ph/sign-in">
+            <button className="sm:w-full flex items-center border text-lg font-medium uppercase bg-yellow-400 hover:border-gold dark:border-transparent text-black px-4 py-2 rounded-2xl">
+              Sign In <ChevronRight className="ml-1" />
+            </button>
+          </Link>
           <HoverBorderGradient
             containerClassName="rounded-2xl"
             as="button"
@@ -43,11 +48,7 @@ export function HeroSection() {
             </span>
             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-yellow-500 to-transparent h-px" />
           </HoverBorderGradient>
-          <Link href="https://platform.igift.ph/sign-in">
-            <button className="sm:w-full flex items-center border text-lg font-medium uppercase dark:bg-gold dark:hover:border-gold dark:border-transparent text-black px-4 py-2 rounded-2xl">
-              Sign In <ChevronRight className="ml-1" />
-            </button>
-          </Link>
+          
         </div>
       </div>
     </div>
