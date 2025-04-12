@@ -33,15 +33,15 @@ const Homepage = async () => {
   return ( 
   <>
   <EarnHeroSection />
-  <div className='w-full mx-auto px-12 dark:bg-black antialiased dark:bg-grid-white/[0.03] overflow-hidden space-y-8 pt-4'>
+  <div className='w-full mx-auto px-4 lg:px-12 dark:bg-black antialiased dark:bg-grid-white/[0.03] overflow-hidden space-y-8 pt-4'>
   <WaysToEarn />
   <Benefits />
   <div className="mt-20">
   <DealCountdown />
   </div>
   <SocialProofSection />
-  <div className='max-w-5xl text-6xl font-bold mx-auto text-center mt-40'>
-    Frequently Asked Questions
+  <div className='max-w-5xl text-7xl lg:text-9xl font-bold mx-auto text-center mt-40'>
+    FAQs
   </div>
   <FrequentlyAskedQuestions />
   <HoverBottomSection />

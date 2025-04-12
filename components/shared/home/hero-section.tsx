@@ -13,7 +13,7 @@ export function HeroSection() {
 
   return (
     <>
-    <div className="relative md:h-screen h-[60rems] w-full rounded-md flex md:items-center md:justify-center dark:bg-black/[0.96] bg-white/[0.96] antialiased dark:bg-grid-white/[0.05] bg-grid-black/[0.05] overflow-hidden">
+    <div className="relative md:h-screen h-[40rems] w-full rounded-md flex md:items-center md:justify-center dark:bg-black/[0.96] bg-white/[0.96] antialiased dark:bg-grid-white/[0.05] bg-grid-black/[0.05] overflow-hidden">
       <Spotlight />
 
       {/* Text Content */}
@@ -21,10 +21,10 @@ export function HeroSection() {
         <div className="flex justify-center mb-8">
           <AnnouncementButton />
         </div>
-        <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold text-center bg-clip-text text-black dark:text-transparent dark:bg-gradient-to-b dark:from-neutral-50 dark:to-neutral-400 bg-opacity-50">
+        <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-center bg-clip-text text-black dark:text-transparent dark:bg-gradient-to-b dark:from-neutral-50 dark:to-neutral-400 bg-opacity-50">
           Helping People 
           <br /> 
-          <span className="text-4xl md:text-6xl lg:text-8xl"><FlipWords words={words} /></span>
+          <span className="text-3xl md:text-6xl lg:text-8xl"><FlipWords words={words} /></span>
         </h1>
         <p className="mt-4 font-mono md:text-lg text-md dark:text-neutral-300 max-w-3xl text-center mx-auto">
           Boost your immunity with our science-backed supplements and create new income opportunities 
@@ -38,14 +38,14 @@ export function HeroSection() {
           >
             <span>
               <Link href="https://platform.igift.ph/sign-up" className="flex items-center">
-                Get Started <ChevronRight className="ml-1" />
+                Sign Up <ChevronRight className="ml-1" />
               </Link>
             </span>
             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-yellow-500 to-transparent h-px" />
           </HoverBorderGradient>
           <Link href="https://platform.igift.ph/sign-in">
-            <button className="sm:w-full flex items-center border text-lg font-medium uppercase dark:bg-white dark:hover:border-gold dark:border-transparent text-black px-4 py-2 rounded-2xl">
-              Login <ChevronRight className="ml-1" />
+            <button className="sm:w-full flex items-center border text-lg font-medium uppercase dark:bg-gold dark:hover:border-gold dark:border-transparent text-black px-4 py-2 rounded-2xl">
+              Sign In <ChevronRight className="ml-1" />
             </button>
           </Link>
         </div>

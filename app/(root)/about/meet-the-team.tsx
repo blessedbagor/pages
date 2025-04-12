@@ -67,14 +67,14 @@ const teamMembers = [
 
 const MeetTheTeam = () => {
     return (
-        <div className="rounded-md md:px-8 max-w-7xl px-2 flex flex-col antialiased  items-center justify-center relative overflow-hidden">
-            <h2 className='mb-4 mt-20 text-2xl lg:text-4xl text-center dark:text-gray-300'>
+        <div className="rounded-md lg:px-8 max-w-7xl px-2 flex flex-col antialiased  items-center justify-center relative overflow-hidden">
+            <h2 className='mb-4 mt-20 text-3xl lg:text-4xl text-center dark:text-gray-300 font-semibold'>
                 The Team Behind It
             </h2>
-            <p className='mb-20 text-lg text-center dark:text-gray-300 max-w-2xl'>
+            <p className='mb-20 text-md text-center dark:text-gray-300 max-w-2xl'>
                 We are iGift, a lifestyle-driven business helping people live healthier, earn smarter, and move forward.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 mx-4 px-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 mx-4 lg:px-10">
                 {teamMembers.map((member, index) => (
                     <Card key={index} className="w-full max-w-md border">
                         <CardHeader className="p-0 items-center">

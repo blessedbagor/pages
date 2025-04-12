@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     return ( 
     <>
     <HeroSection />
-    <div className='w-full mx-auto px-12 dark:bg-black bg-white antialiased dark:bg-grid-white/[0.03] bg-grid-black/[0.03] overflow-hidden space-y-8 pt-4'>
+    <div className='w-full mx-auto px-4 lg:px-12 dark:bg-black bg-white antialiased dark:bg-grid-white/[0.03] bg-grid-black/[0.03] overflow-hidden space-y-8 pt-4'>
     <Benefits />
     <ProblemSection />
     <ProblemAgitateSection />
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     <FeaturesSection />
     <PackageSection />
     <DealCountdown />
-    <div className='max-w-5xl text-9xl font-bold mx-auto text-center mt-40'>FAQs</div>
+    <div className='max-w-5xl text-7xl lg:text-9xl font-bold mx-auto text-center mt-40'>FAQs</div>
     <FrequentlyAskedQuestions />
     <HoverBottomSection />
      </div>

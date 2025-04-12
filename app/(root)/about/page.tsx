@@ -31,7 +31,7 @@ const Aboutpage = async () => {
   return ( 
   <>
   <AboutHeroSection />
-  <div className='w-full mx-auto px-12 dark:bg-black/[0.96] border-t-2 rounded-full antialiased dark:bg-grid-white/[0.03] overflow-hidden space-y-8 pt-4'>
+  <div className='w-full mx-auto px-4 lg:px-12 dark:bg-black/[0.96] border-t-2 rounded-full antialiased dark:bg-grid-white/[0.03] overflow-hidden space-y-8 pt-4'>
   <WhoWeAre />
   <ServiceList />
   <SocialProofSection />

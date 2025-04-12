@@ -43,7 +43,7 @@ export default function LatestReviews() {
       {reviews.map((review) => (
         <Card
           key={review.id}
-          className="flex flex-col md:flex-row gap-4 p-6  border-yellow-200 hover:border-yellow-400 border-2 rounded-xl shadow-lg mt-6 max-w-5xl mx-auto bg-transparent"
+          className="flex flex-col md:flex-row gap-4 p-2 md:p-6  border-yellow-200 hover:border-yellow-400 border-2 rounded-xl shadow-lg mt-6 max-w-full md:max-w-5xl mx-auto bg-transparent"
         >
           {/* Right Text Section */}
           <CardContent className="flex flex-col justify-center text-center md:text-left w-full md:w-2/3">

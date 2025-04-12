@@ -44,7 +44,7 @@ export function WaysToEarn() {
 </AnimatePresence>
 <AnimatePresence>
   {active && typeof active === "object" ? (
-    <div className="fixed inset-0 flex items-center justify-center z-[6000] p-4">
+    <div className="fixed inset-0 flex items-center justify-center z-[6000] lg:p-4">
       <motion.button
         key={`button-${active.title}-${id}`}
         layout
@@ -59,7 +59,7 @@ export function WaysToEarn() {
       <motion.div
         layoutId={`card-${active.title}-${id}`}
         ref={ref}
-        className="w-full max-w-[95vw] sm:max-w-[500px] h-auto max-h-[95vh] flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden shadow-lg"
+        className="w-full max-w-[500px] flex flex-col bg-white dark:bg-neutral-900 rounded-2xl shadow-lg"
       >
         <motion.div layoutId={`image-${active.title}-${id}`}>
           <Image
@@ -68,7 +68,7 @@ export function WaysToEarn() {
             height={900}
             src={active.src}
             alt={active.title}
-            className="w-full h-[450px] sm:h-[500px] object-cover object-top bg-white"
+            className="w-full h-90 object-cover bg-white"
           />
         </motion.div>
         <div className="p-4 space-y-3">
@@ -123,7 +123,7 @@ export function WaysToEarn() {
             height={900}
             src={card.src}
             alt={card.title}
-            className="h-32 w-32 md:h-20 md:w-20 rounded-lg object-cover object-top bg-white"
+            className="h-128 w-128 lg:h-20 lg:w-20 rounded-lg object-cover object-top bg-white"
           />
         </motion.div>
         <div className="text-center md:text-left">

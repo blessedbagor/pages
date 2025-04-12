@@ -5,7 +5,7 @@ import { HeroHighlight } from "@/components/ui/hero-highlight";
 
 export function EarnHeroSection() {
   return (
-    <section className="w-full h-screen flex items-center justify-center">
+    <section className="w-full lg:h-screen flex items-center justify-center mb-12">
       <div className="max-w-5xl h-[35rem]">
       <HeroHighlight>
         <motion.div
