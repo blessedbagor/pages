@@ -37,7 +37,7 @@ const teamMembers = [
         name: "Kimberly Charmaine Ganzon-Mahinay, MD",
         position: "Medical Director",
         image: "/team/doccharm.png",
-        fbLink: "https://www.linkedin.com/in/maria-jade-c-opulencia-phd-72061145/"
+        fbLink: "https://www.linkedin.com/in/kimberly-charmaine-ganzon-mahinay-md-fpcom-63852071/"
     },
     {
         name: "Blessed C. Bagor",

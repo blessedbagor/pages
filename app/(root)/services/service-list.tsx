@@ -1,6 +1,6 @@
 "use client";
 
-import { BookIcon, DollarSignIcon, HeartIcon} from "lucide-react";
+import { DollarSignIcon, HeartIcon, Link, WalletMinimal} from "lucide-react";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 
 export function ServiceList() {
@@ -9,25 +9,25 @@ export function ServiceList() {
   <GridItem
     area="md:[grid-area:auto] xl:[grid-area:auto]"
     icon={<HeartIcon className="h-12 w-12 text-black dark:text-gold" />}
-    title="iGift Care Program"
+    title="iGift Care"
     description="Access expert telehealth services for medical, mental health, and wellness support—anytime, anywhere."
   />
 <GridItem
     area="md:[grid-area:auto] xl:[grid-area:auto]"
-    icon={<BookIcon className="h-12 w-12 text-black dark:text-gold" />}
-    title="iGift Learn Program"
+    icon={<Link className="h-12 w-12 text-black dark:text-gold" />}
+    title="iGift Connect"
     description="Join a supportive community to develop sales skills, leadership, personal growth, and health awareness."
   />
   <GridItem
     area="md:[grid-area:auto] xl:[grid-area:auto]"
     icon={<DollarSignIcon className="h-12 w-12 text-black dark:text-gold" />}
-    title="iGift Earn Program"
+    title="iGift Earn"
     description="Achieve financial independence through personal selling, team development, and residual income."
   />
   <GridItem
     area="md:[grid-area:auto] xl:[grid-area:auto]"
-    icon={<DollarSignIcon className="h-12 w-12 text-black dark:text-gold" />}
-    title="iGift Reward Program"
+    icon={<WalletMinimal className="h-12 w-12 text-black dark:text-gold" />}
+    title="iGift Rewards"
     description="Earn reward credits on purchases and gift certificates (GCs), then redeem them like cash at iGift partner merchants."
   />
 </ul>

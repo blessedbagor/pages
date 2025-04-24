@@ -17,7 +17,7 @@ export function CompanySection() {
       async function fetchTotalUsers() {
         try {
           const usersCount = await getTotalUsers(); 
-          setUpdatedUsersCount(usersCount + 2040);
+          setUpdatedUsersCount(usersCount + 2509);
         } catch (error) {
           console.error("Failed to fetch total users:", error);
         }

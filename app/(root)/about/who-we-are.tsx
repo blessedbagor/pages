@@ -41,14 +41,14 @@ export function WhoWeAre() {
         supplements—products that are not only effective but also affordable, even for those earning minimum wage.
     <br /><br />
     By September 2024, our CEO, <span className='dark:text-gray-300'>Melvin C. Botavara</span>,
-    and COO, <span className='dark:text-gray-300'>Melchor S. Legaspi</span>, 
+    and the rest of <span className='dark:text-gray-300'>Board of Directors</span> of iGift, 
     began sharing this vision with five close friends. 
     Just a month later, on October 7, 2024, we launched our first 
     product—<span className='font-bold dark:text-gray-300'>Immuno Boost Advance+</span>.
     <br /><br />
     From those first five, the ripple effect began. 
     Five turned into 20, then 100, then 700, and finally 1,300 by the end of the year. 
-    As of February 2025, we are proud to have over 1,500 happy customers who 
+    As of February 2025, we are proud to have over 2,000 happy customers who 
     not only use our products but also share them with their friends and family.
     <br /><br />
     We&apos;re just getting started, and we&apos;re building something special—together.
