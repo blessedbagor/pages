@@ -34,7 +34,7 @@ const teamMembers = [
         fbLink: "https://seriousmd.com/doc/mmarpa"
     },
     {
-        name: "Kimberly Charmaine Ganzon-Mahinay, MD",
+        name: "Kimberly Charmaine Ganzon-Mahinay, MD, FPCOM",
         position: "Medical Director",
         image: "/team/doccharm.png",
         fbLink: "https://www.linkedin.com/in/kimberly-charmaine-ganzon-mahinay-md-fpcom-63852071/"
