@@ -40,6 +40,12 @@ const teamMembers = [
         fbLink: "https://www.linkedin.com/in/kimberly-charmaine-ganzon-mahinay-md-fpcom-63852071/"
     },
     {
+        name: "Luigi Mahinay, MD, FPCOM",
+        position: "iGift Care Program Head",
+        image: "/team/luigi.png",
+        fbLink: "https://www.linkedin.com/in/luigi-mahinay-4a129337/"
+    },
+    {
         name: "Blessed C. Bagor",
         position: "Head of Information Technology",
         image: "/team/sidong.png",
