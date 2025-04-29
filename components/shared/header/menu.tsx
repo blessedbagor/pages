@@ -52,17 +52,16 @@ const Menu = async () => {
             </SheetTrigger>
             <SheetContent className='flex flex-col items-start'>
             <SheetTitle>Menu</SheetTitle>
-            <CartCount cart={cart} />
+            <ModeToggle />
             {navItems.map((item)=>(
                     <Link
                         key={item.name}
                         href={item.href}
-                        className="rounded-3xl hover:bg-yellow-400 hover:text-black px-4 py-2 text-sm uppercase font-medium"
+                        className="rounded-3xl hover:bg-yellow-400 hover:text-black px-4 text-sm uppercase font-medium"
                     >
                         {item.name}
                     </Link>
                 ))}
-                <ModeToggle />
                 <UserButton />
                 
             <SheetDescription></SheetDescription>
