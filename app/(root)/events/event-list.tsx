@@ -235,10 +235,10 @@ const cards: EventCard[] = [
     title: "The Science Behind",
     src: "/images/meetings/2.png",
     ctaText: "Join Now",
-    ctaLink: "https://us06web.zoom.us/j/84792530660?pwd=dDxtrfCGB3SaaPiyERuthBHf4RWb0U.1",
-    meetingId: "847 9253 0660",
+    ctaLink: "https://us06web.zoom.us/j/83943028640?pwd=lle6reuYnSCLrJVvYlSUCsqESlyofu.1",
+    meetingId: "839 4302 8640",
     passCode: "123456",
-    nextMeeting: "2025-03-24T20:00:00+08:00", 
+    nextMeeting: "2025-05-05T20:00:00+08:00", 
     content: () => <p>Join us for The Science Behind, a Zoom presentation exploring the principles behind our flagship product, 
       its scientific foundation, and how it supports better understanding of medical conditions for improved well-being.</p>
   },
