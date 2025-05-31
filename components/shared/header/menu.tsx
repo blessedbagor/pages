@@ -20,7 +20,7 @@ const navItems = [
     {name: "Packages", href: "/packages"},
     {name: "Services", href: "/services"},
     {name: "Earn", href: "/earn"},
-    {name: "Events", href: "/events"},
+    {name: "Events", href: "https://connect.igift.com.ph/events/"},
     {name: "Center", href: "https://center.igift.ph"},
     {name: "Resources", href: "/resources"},
     {name: "Contact", href: "/contact"}

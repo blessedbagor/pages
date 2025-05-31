@@ -34,15 +34,15 @@ export const projects = [
     link: "https://m.me/igift.official",
   },
   {
-    title: "Follow Us on Facebook",
+    title: "Join our Community",
     description:
-      "fb.me/igift.official",
-    link: "https://fb.me/igift.official",
+      "connect.igift.com.ph",
+    link: "https://connect.igift.com.ph/community",
   },
   {
-    title: "Subscribe  us on Youtube",
+    title: "Submit Ticket",
     description:
-      "youtube.com/@igift.official",
-    link: "https://www.youtube.com/channel/UCLIFGXAGzUmmXR9y7I2srKA?sub_confirmation=1",
+      "connect.igift.com.ph/portal",
+    link: "https://connect.igift.com.ph/portal",
   },
 ];
