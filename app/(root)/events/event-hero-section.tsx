@@ -17,7 +17,7 @@ export function EventsHeroSection() {
       <div className="relative z-20 mt-6">
         <Link
           href="https://connect.igift.com.ph/events/"
-          className="inline-block px-6 py-3 bg-gold text-white rounded-lg hover:bg-blue-700 transition-colors"
+          className="inline-block px-6 py-3 bg-gold text-black rounded-lg transition-colors"
         >
           View Events
         </Link>
