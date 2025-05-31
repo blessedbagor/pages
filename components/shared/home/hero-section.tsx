@@ -31,7 +31,7 @@ export function HeroSection() {
           for yourself and your family.
         </p>
         <div className="flex gap-x-4 justify-center mt-8">
-        <Link href="https://platform.igift.ph/sign-in">
+        <Link href="/sign-in">
             <button className="sm:w-full flex items-center border text-lg font-medium uppercase bg-yellow-400 hover:border-gold dark:border-transparent text-black px-4 py-2 rounded-2xl">
               Sign In <ChevronRight className="ml-1" />
             </button>
@@ -42,7 +42,7 @@ export function HeroSection() {
             className="sm:w-full border text-lg font-medium relative border-neutral-200 dark:border-gold/[0.4] text-gold dark:text-white px-4 py-2 rounded-2xl uppercase"
           >
             <span>
-              <Link href="https://platform.igift.ph/sign-up" className="flex items-center">
+              <Link href="/sign-up" className="flex items-center">
                 Sign Up <ChevronRight className="ml-1" />
               </Link>
             </span>
