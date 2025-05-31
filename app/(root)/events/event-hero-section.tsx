@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export function EventsHeroSection() {
@@ -13,6 +14,14 @@ export function EventsHeroSection() {
       <p className="relative z-20 text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl">
         View our event page for regular Zoom meetings, including schedules, topics, and access links.
       </p>
+      <div className="relative z-20 mt-6">
+        <Link
+          href="https://connect.igift.com.ph/events/"
+          className="inline-block px-6 py-3 bg-gold text-white rounded-lg hover:bg-blue-700 transition-colors"
+        >
+          View Events
+        </Link>
+      </div>
     </div>
   );
 }
