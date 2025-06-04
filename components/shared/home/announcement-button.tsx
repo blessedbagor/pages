@@ -13,10 +13,11 @@ import Link from "next/link";
 
 export function AnnouncementButton() {
   const images = [
-    "/images/soft-launching/3.png",
-    "/images/soft-launching/1.png",
-    "/images/soft-launching/4.png",
-    "/images/soft-launching/2.png",
+    "/images/june-events/bacolod-launching.png",
+    "/images/june-events/11th-bizcon.png",
+    "/images/june-events/12th-bizcon.png",
+    "/images/june-events/13th-bizcon.png",
+    "/images/june-events/14th-bizcon.png",
   ];
   return (
     <div className="pt-20  flex items-center justify-center">
@@ -28,7 +29,7 @@ export function AnnouncementButton() {
             </span>
             <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 ">
               <span>
-              Soft Launching Promo 🎉
+              See you on June 6, 7, & 8! 🎉
               </span>
               <svg
                 fill="none"
@@ -52,9 +53,9 @@ export function AnnouncementButton() {
         <ModalBody>
           <ModalContent>
             <h4 className="text-lg md:text-2xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-8">
-            iGift Soft Launching   {" "}
+            June 6, 7, & 8   {" "}
               <span className="px-1 py-0.5 rounded-md bg-gray-100 dark:bg-neutral-800 dark:border-neutral-700 border border-gray-200">
-              Promo
+              Events
               </span>{" "}
               🎉
             </h4>
@@ -79,7 +80,7 @@ export function AnnouncementButton() {
                 >
                   <Image
                     src={image}
-                    alt="Da Nang images"
+                    alt="June Big Events"
                     width="500"
                     height="500"
                     className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover shrink-0"
@@ -89,17 +90,15 @@ export function AnnouncementButton() {
             </div>
             <div className="py-10 flex flex-wrap gap-x-4 gap-y-6 items-start justify-start max-w-sm mx-auto">
             <p className="text-lg mx-auto text-center">
-            We are excited to announce that our 
-            soft launch will be on April 30, 2025! 
-            Our promo starts 
-            now—don&apos;t miss this exciting milestone!
+            Join us on June 6, 7, and 8 for iGift&apos;s Business Presentation and 
+            Soft Launch—discover how our health products can boost your well-being and create income opportunities.
             </p>
             </div>
           </ModalContent>
           <ModalFooter className="gap-4">
-            <Link href='https://learn.igift.com.ph/community/space/say-hello/post/igift-iloilo-head-office-soft' target="_blank" className='mx-auto'>
+            <Link href='https://events.igift.com.ph' target="_blank" className='mx-auto'>
             <span className=" text-black bg-gold text-lg px-2 py-2 rounded-xl border border-black">
-              Read the Promo Mechanics
+              Read the Event Details
             </span>
             </Link>
           </ModalFooter>
