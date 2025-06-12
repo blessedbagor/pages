@@ -51,12 +51,12 @@ const teamMembers = [
         image: "/team/sidong.png",
         fbLink: "https://www.linkedin.com/in/blessed-bagor/"
     },
-    {
-        name: "Marita M. Dugang",
-        position: "International Marketing Director",
-        image: "/team/marita.png",
-        fbLink: "https://www.facebook.com/unstoppablemarita"
-    },
+    // {
+    //     name: "Marita M. Dugang",
+    //     position: "International Marketing Director",
+    //     image: "/team/marita.png",
+    //     fbLink: "https://www.facebook.com/unstoppablemarita"
+    // },
     {
         name: "Edgardo L. Colmenares",
         position: "Operations Manager",
