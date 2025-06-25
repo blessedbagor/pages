@@ -5,8 +5,14 @@ import Image from "next/image";
 const teamMembers = [
     {
         name: "Melvin C. Botavara",
-        position: "President & CEO",
+        position: "Chairman & CEO",
         image: "/team/melvin.png",
+        fbLink: "https://www.facebook.com/mentormelvin.botavara"
+    },
+    {
+        name: "Reggie A. Bautista",
+        position: "President",
+        image: "/team/reggie.png",
         fbLink: "https://www.facebook.com/mentormelvin.botavara"
     },
     {
