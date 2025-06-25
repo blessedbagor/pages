@@ -11,7 +11,7 @@ const teamMembers = [
     },
     {
         name: "Melchor S. Legaspi",
-        position: "COO",
+        position: "CMO",
         image: "/team/melchor.png",
         fbLink: "https://www.facebook.com/melchor.legaspi.7"
     },
@@ -47,7 +47,7 @@ const teamMembers = [
     },
     {
         name: "Blessed C. Bagor",
-        position: "Head of Information Technology",
+        position: "Chief Technology Officer",
         image: "/team/sidong.png",
         fbLink: "https://www.linkedin.com/in/blessed-bagor/"
     },
@@ -59,7 +59,7 @@ const teamMembers = [
     // },
     {
         name: "Edgardo L. Colmenares",
-        position: "Operations Manager",
+        position: "Training Director",
         image: "/team/edgar.png",
         fbLink: "https://www.facebook.com/edgardo.colmenares.507"
     },
